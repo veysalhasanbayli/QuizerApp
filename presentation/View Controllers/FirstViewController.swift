@@ -13,7 +13,6 @@ public class FirstViewController: UIViewController {
         
         self.view.backgroundColor = .red
         super.viewDidLoad()
-
         
     }
     
