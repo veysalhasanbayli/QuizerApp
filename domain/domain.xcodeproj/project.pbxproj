@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		D1045BE728C1FCCA00CAA6F1 /* QuestionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1045BE628C1FCCA00CAA6F1 /* QuestionEntity.swift */; };
-		D1045BE928C1FDEA00CAA6F1 /* InteractiveModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1045BE828C1FDEA00CAA6F1 /* InteractiveModelType.swift */; };
 		D1045BEC28C1FFBD00CAA6F1 /* GetQuestionsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1045BEB28C1FFBD00CAA6F1 /* GetQuestionsUseCase.swift */; };
 		D1045C0A28C223F700CAA6F1 /* Domain Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1045C0928C223F700CAA6F1 /* Domain Assembly.swift */; };
 		D1045C1128C2253E00CAA6F1 /* QuestionsRepoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1045C1028C2253E00CAA6F1 /* QuestionsRepoProtocol.swift */; };
+		D1CF0C3A28C8FC0400D384A5 /* FBLPromisesTestHelpers in Frameworks */ = {isa = PBXBuildFile; productRef = D1CF0C3928C8FC0400D384A5 /* FBLPromisesTestHelpers */; };
+		D1CF0C3C28C8FC0400D384A5 /* PromisesTestHelpers in Frameworks */ = {isa = PBXBuildFile; productRef = D1CF0C3B28C8FC0400D384A5 /* PromisesTestHelpers */; };
+		D1CF0C3E28C8FC1200D384A5 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = D1CF0C3D28C8FC1200D384A5 /* RxCocoa */; };
 		D1E96F8028BFD42A00AB942C /* domain.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E96F7F28BFD42A00AB942C /* domain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1E96FB528BFECB300AB942C /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = D1E96FB428BFECB300AB942C /* RxBlocking */; };
 		D1E96FB728BFECB300AB942C /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = D1E96FB628BFECB300AB942C /* RxRelay */; };
 		D1E96FB928BFECB300AB942C /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D1E96FB828BFECB300AB942C /* RxSwift */; };
-		D1E96FBB28BFECB300AB942C /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = D1E96FBA28BFECB300AB942C /* RxTest */; };
 		D1E96FBE28BFECCD00AB942C /* FBLPromises in Frameworks */ = {isa = PBXBuildFile; productRef = D1E96FBD28BFECCD00AB942C /* FBLPromises */; };
 		D1E96FC028BFECCD00AB942C /* Promises in Frameworks */ = {isa = PBXBuildFile; productRef = D1E96FBF28BFECCD00AB942C /* Promises */; };
 		D1E96FC328BFECE800AB942C /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = D1E96FC228BFECE800AB942C /* Swinject */; };
@@ -24,10 +25,10 @@
 
 /* Begin PBXFileReference section */
 		D1045BE628C1FCCA00CAA6F1 /* QuestionEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionEntity.swift; sourceTree = "<group>"; };
-		D1045BE828C1FDEA00CAA6F1 /* InteractiveModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveModelType.swift; sourceTree = "<group>"; };
 		D1045BEB28C1FFBD00CAA6F1 /* GetQuestionsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetQuestionsUseCase.swift; sourceTree = "<group>"; };
 		D1045C0928C223F700CAA6F1 /* Domain Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Domain Assembly.swift"; sourceTree = "<group>"; };
 		D1045C1028C2253E00CAA6F1 /* QuestionsRepoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsRepoProtocol.swift; sourceTree = "<group>"; };
+		D11CB0A228C8F1FB00107D0C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D1E96F7C28BFD42A00AB942C /* domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E96F7F28BFD42A00AB942C /* domain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = domain.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -37,13 +38,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1E96FBB28BFECB300AB942C /* RxTest in Frameworks */,
 				D1E96FB928BFECB300AB942C /* RxSwift in Frameworks */,
+				D1CF0C3E28C8FC1200D384A5 /* RxCocoa in Frameworks */,
 				D1E96FC328BFECE800AB942C /* Swinject in Frameworks */,
+				D1CF0C3C28C8FC0400D384A5 /* PromisesTestHelpers in Frameworks */,
 				D1E96FC028BFECCD00AB942C /* Promises in Frameworks */,
 				D1E96FBE28BFECCD00AB942C /* FBLPromises in Frameworks */,
 				D1E96FB728BFECB300AB942C /* RxRelay in Frameworks */,
 				D1E96FB528BFECB300AB942C /* RxBlocking in Frameworks */,
+				D1CF0C3A28C8FC0400D384A5 /* FBLPromisesTestHelpers in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +77,14 @@
 			path = Repostiories;
 			sourceTree = "<group>";
 		};
+		D11CB0A128C8F1FB00107D0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D11CB0A228C8F1FB00107D0C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D1E96F7228BFD42900AB942C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +94,7 @@
 				D1E96FCF28BFEDC400AB942C /* Entities */,
 				D1E96F7E28BFD42A00AB942C /* domain */,
 				D1E96F7D28BFD42A00AB942C /* Products */,
+				D11CB0A128C8F1FB00107D0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,7 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				D1045BE628C1FCCA00CAA6F1 /* QuestionEntity.swift */,
-				D1045BE828C1FDEA00CAA6F1 /* InteractiveModelType.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -143,10 +154,12 @@
 				D1E96FB428BFECB300AB942C /* RxBlocking */,
 				D1E96FB628BFECB300AB942C /* RxRelay */,
 				D1E96FB828BFECB300AB942C /* RxSwift */,
-				D1E96FBA28BFECB300AB942C /* RxTest */,
 				D1E96FBD28BFECCD00AB942C /* FBLPromises */,
 				D1E96FBF28BFECCD00AB942C /* Promises */,
 				D1E96FC228BFECE800AB942C /* Swinject */,
+				D1CF0C3928C8FC0400D384A5 /* FBLPromisesTestHelpers */,
+				D1CF0C3B28C8FC0400D384A5 /* PromisesTestHelpers */,
+				D1CF0C3D28C8FC1200D384A5 /* RxCocoa */,
 			);
 			productName = domain;
 			productReference = D1E96F7C28BFD42A00AB942C /* domain.framework */;
@@ -207,7 +220,6 @@
 			files = (
 				D1045C0A28C223F700CAA6F1 /* Domain Assembly.swift in Sources */,
 				D1045C1128C2253E00CAA6F1 /* QuestionsRepoProtocol.swift in Sources */,
-				D1045BE928C1FDEA00CAA6F1 /* InteractiveModelType.swift in Sources */,
 				D1045BE728C1FCCA00CAA6F1 /* QuestionEntity.swift in Sources */,
 				D1045BEC28C1FFBD00CAA6F1 /* GetQuestionsUseCase.swift in Sources */,
 			);
@@ -448,6 +460,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D1CF0C3928C8FC0400D384A5 /* FBLPromisesTestHelpers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1E96FBC28BFECCD00AB942C /* XCRemoteSwiftPackageReference "promises" */;
+			productName = FBLPromisesTestHelpers;
+		};
+		D1CF0C3B28C8FC0400D384A5 /* PromisesTestHelpers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1E96FBC28BFECCD00AB942C /* XCRemoteSwiftPackageReference "promises" */;
+			productName = PromisesTestHelpers;
+		};
+		D1CF0C3D28C8FC1200D384A5 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1E96FB328BFECB300AB942C /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
 		D1E96FB428BFECB300AB942C /* RxBlocking */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D1E96FB328BFECB300AB942C /* XCRemoteSwiftPackageReference "RxSwift" */;
@@ -462,11 +489,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D1E96FB328BFECB300AB942C /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
-		};
-		D1E96FBA28BFECB300AB942C /* RxTest */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D1E96FB328BFECB300AB942C /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxTest;
 		};
 		D1E96FBD28BFECCD00AB942C /* FBLPromises */ = {
 			isa = XCSwiftPackageProductDependency;
