@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D11CB0A428C8F7D100107D0C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E96FAA28BFD9C800AB942C /* Media.xcassets */; };
 		D1E96F0A28BFD2BE00AB942C /* presentation.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E96F0928BFD2BE00AB942C /* presentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1E96F9E28BFD8BC00AB942C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E96F9D28BFD8BC00AB942C /* FirstViewController.swift */; };
 		D1E96FA128BFD96600AB942C /* domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E96FA028BFD96600AB942C /* domain.framework */; };
 		D1E96FA228BFD96600AB942C /* domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D1E96FA028BFD96600AB942C /* domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D1E96FAB28BFD9C800AB942C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E96FAA28BFD9C800AB942C /* Media.xcassets */; };
 		D1E96FCE28BFEDB000AB942C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D1E96FCD28BFEDB000AB942C /* SnapKit */; };
 /* End PBXBuildFile section */
 
@@ -178,7 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D11CB0A428C8F7D100107D0C /* Media.xcassets in Resources */,
+				D1E96FAB28BFD9C800AB942C /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

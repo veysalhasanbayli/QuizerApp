@@ -7,21 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D11CB08128C8E40300107D0C /* QuestionLocalDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11CB08028C8E40300107D0C /* QuestionLocalDataSourceProtocol.swift */; };
-		D11CB08328C8E41200107D0C /* QuestionLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11CB08228C8E41200107D0C /* QuestionLocalDataSource.swift */; };
-		D11CB08528C8E42300107D0C /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11CB08428C8E42300107D0C /* Mapper.swift */; };
-		D11CB08728C8E46300107D0C /* QuestionRemoteDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11CB08628C8E46300107D0C /* QuestionRemoteDataSourceProtocol.swift */; };
-		D11CB08928C8E47500107D0C /* QuestionRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11CB08828C8E47500107D0C /* QuestionRemoteDataSource.swift */; };
-		D11CB08B28C8E48200107D0C /* QuestionRemoteDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11CB08A28C8E48200107D0C /* QuestionRemoteDTO.swift */; };
-		D11CB08D28C8E4A900107D0C /* DataAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11CB08C28C8E4A900107D0C /* DataAssembly.swift */; };
-		D11CB08F28C8E4BC00107D0C /* QuestionRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11CB08E28C8E4BC00107D0C /* QuestionRepo.swift */; };
-		D11CB09128C8E4F300107D0C /* QuestionLocalDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11CB09028C8E4F300107D0C /* QuestionLocalDTO.swift */; };
-		D11CB09728C8EA2C00107D0C /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = D11CB09628C8EA2C00107D0C /* Realm */; };
-		D11CB09928C8EA2C00107D0C /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D11CB09828C8EA2C00107D0C /* RealmSwift */; };
 		D1E96F6628BFD41700AB942C /* data.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E96F6528BFD41700AB942C /* data.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1E96FA628BFD97400AB942C /* domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E96FA528BFD97400AB942C /* domain.framework */; };
 		D1E96FA728BFD97400AB942C /* domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D1E96FA528BFD97400AB942C /* domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D1E96FC628BFED0700AB942C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D1E96FC528BFED0700AB942C /* Alamofire */; };
+		D1E96FC928BFED9000AB942C /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = D1E96FC828BFED9000AB942C /* Realm */; };
+		D1E96FCB28BFED9000AB942C /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D1E96FCA28BFED9000AB942C /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,15 +30,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D11CB08028C8E40300107D0C /* QuestionLocalDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionLocalDataSourceProtocol.swift; sourceTree = "<group>"; };
-		D11CB08228C8E41200107D0C /* QuestionLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionLocalDataSource.swift; sourceTree = "<group>"; };
-		D11CB08428C8E42300107D0C /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
-		D11CB08628C8E46300107D0C /* QuestionRemoteDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionRemoteDataSourceProtocol.swift; sourceTree = "<group>"; };
-		D11CB08828C8E47500107D0C /* QuestionRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionRemoteDataSource.swift; sourceTree = "<group>"; };
-		D11CB08A28C8E48200107D0C /* QuestionRemoteDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionRemoteDTO.swift; sourceTree = "<group>"; };
-		D11CB08C28C8E4A900107D0C /* DataAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAssembly.swift; sourceTree = "<group>"; };
-		D11CB08E28C8E4BC00107D0C /* QuestionRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionRepo.swift; sourceTree = "<group>"; };
-		D11CB09028C8E4F300107D0C /* QuestionLocalDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionLocalDTO.swift; sourceTree = "<group>"; };
 		D1E96F6228BFD41700AB942C /* data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E96F6528BFD41700AB942C /* data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = data.h; sourceTree = "<group>"; };
 		D1E96FA528BFD97400AB942C /* domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,8 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D11CB09928C8EA2C00107D0C /* RealmSwift in Frameworks */,
-				D11CB09728C8EA2C00107D0C /* Realm in Frameworks */,
+				D1E96FCB28BFED9000AB942C /* RealmSwift in Frameworks */,
+				D1E96FC928BFED9000AB942C /* Realm in Frameworks */,
 				D1E96FA628BFD97400AB942C /* domain.framework in Frameworks */,
 				D1E96FC628BFED0700AB942C /* Alamofire in Frameworks */,
 			);
@@ -68,58 +50,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D11CB07928C8E31500107D0C /* Local Data Source */ = {
-			isa = PBXGroup;
-			children = (
-				D11CB08028C8E40300107D0C /* QuestionLocalDataSourceProtocol.swift */,
-				D11CB08228C8E41200107D0C /* QuestionLocalDataSource.swift */,
-				D11CB09028C8E4F300107D0C /* QuestionLocalDTO.swift */,
-			);
-			path = "Local Data Source";
-			sourceTree = "<group>";
-		};
-		D11CB07A28C8E32900107D0C /* Remote Data Source */ = {
-			isa = PBXGroup;
-			children = (
-				D11CB08628C8E46300107D0C /* QuestionRemoteDataSourceProtocol.swift */,
-				D11CB08828C8E47500107D0C /* QuestionRemoteDataSource.swift */,
-				D11CB08A28C8E48200107D0C /* QuestionRemoteDTO.swift */,
-			);
-			path = "Remote Data Source";
-			sourceTree = "<group>";
-		};
-		D11CB07B28C8E33E00107D0C /* DI */ = {
-			isa = PBXGroup;
-			children = (
-				D11CB08C28C8E4A900107D0C /* DataAssembly.swift */,
-			);
-			path = DI;
-			sourceTree = "<group>";
-		};
-		D11CB07C28C8E34F00107D0C /* Repostiories */ = {
-			isa = PBXGroup;
-			children = (
-				D11CB08E28C8E4BC00107D0C /* QuestionRepo.swift */,
-			);
-			path = Repostiories;
-			sourceTree = "<group>";
-		};
-		D11CB07D28C8E36900107D0C /* Mapper */ = {
-			isa = PBXGroup;
-			children = (
-				D11CB08428C8E42300107D0C /* Mapper.swift */,
-			);
-			path = Mapper;
-			sourceTree = "<group>";
-		};
 		D1E96F5828BFD41700AB942C = {
 			isa = PBXGroup;
 			children = (
-				D11CB07D28C8E36900107D0C /* Mapper */,
-				D11CB07C28C8E34F00107D0C /* Repostiories */,
-				D11CB07B28C8E33E00107D0C /* DI */,
-				D11CB07A28C8E32900107D0C /* Remote Data Source */,
-				D11CB07928C8E31500107D0C /* Local Data Source */,
 				D1E96F6428BFD41700AB942C /* data */,
 				D1E96F6328BFD41700AB942C /* Products */,
 				D1E96FA428BFD97400AB942C /* Frameworks */,
@@ -181,8 +114,8 @@
 			name = data;
 			packageProductDependencies = (
 				D1E96FC528BFED0700AB942C /* Alamofire */,
-				D11CB09628C8EA2C00107D0C /* Realm */,
-				D11CB09828C8EA2C00107D0C /* RealmSwift */,
+				D1E96FC828BFED9000AB942C /* Realm */,
+				D1E96FCA28BFED9000AB942C /* RealmSwift */,
 			);
 			productName = data;
 			productReference = D1E96F6228BFD41700AB942C /* data.framework */;
@@ -199,7 +132,6 @@
 				TargetAttributes = {
 					D1E96F6128BFD41700AB942C = {
 						CreatedOnToolsVersion = 13.4.1;
-						LastSwiftMigration = 1340;
 					};
 				};
 			};
@@ -214,7 +146,7 @@
 			mainGroup = D1E96F5828BFD41700AB942C;
 			packageReferences = (
 				D1E96FC428BFED0700AB942C /* XCRemoteSwiftPackageReference "Alamofire" */,
-				D11CB09528C8EA2C00107D0C /* XCRemoteSwiftPackageReference "realm-swift" */,
+				D1E96FC728BFED9000AB942C /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = D1E96F6328BFD41700AB942C /* Products */;
 			projectDirPath = "";
@@ -240,15 +172,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D11CB09128C8E4F300107D0C /* QuestionLocalDTO.swift in Sources */,
-				D11CB08328C8E41200107D0C /* QuestionLocalDataSource.swift in Sources */,
-				D11CB08928C8E47500107D0C /* QuestionRemoteDataSource.swift in Sources */,
-				D11CB08528C8E42300107D0C /* Mapper.swift in Sources */,
-				D11CB08F28C8E4BC00107D0C /* QuestionRepo.swift in Sources */,
-				D11CB08B28C8E48200107D0C /* QuestionRemoteDTO.swift in Sources */,
-				D11CB08D28C8E4A900107D0C /* DataAssembly.swift in Sources */,
-				D11CB08728C8E46300107D0C /* QuestionRemoteDataSourceProtocol.swift in Sources */,
-				D11CB08128C8E40300107D0C /* QuestionLocalDataSourceProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +301,6 @@
 		D1E96F6A28BFD41700AB942C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -400,7 +322,6 @@
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -409,7 +330,6 @@
 		D1E96F6B28BFD41700AB942C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -460,14 +380,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D11CB09528C8EA2C00107D0C /* XCRemoteSwiftPackageReference "realm-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-swift";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 		D1E96FC428BFED0700AB942C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire";
@@ -476,23 +388,31 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		D1E96FC728BFED9000AB942C /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D11CB09628C8EA2C00107D0C /* Realm */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D11CB09528C8EA2C00107D0C /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = Realm;
-		};
-		D11CB09828C8EA2C00107D0C /* RealmSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D11CB09528C8EA2C00107D0C /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = RealmSwift;
-		};
 		D1E96FC528BFED0700AB942C /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D1E96FC428BFED0700AB942C /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		D1E96FC828BFED9000AB942C /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1E96FC728BFED9000AB942C /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		D1E96FCA28BFED9000AB942C /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1E96FC728BFED9000AB942C /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
